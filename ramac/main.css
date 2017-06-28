@@ -1,0 +1,13 @@
+.twitter {
+	background: url('images/twitter-100x100.png');
+	width: 100px;
+	height: 100px;
+}
+
+
+@media( -webkit-min-device-pixel-ratio: 2){
+	.twitter {
+		background-image: url('images/twitter-200x200.png');
+		background-size: 100px;
+	}
+}
